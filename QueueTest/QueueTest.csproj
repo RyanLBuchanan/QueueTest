@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="LinkedListLibrary">
+      <HintPath>..\..\LinkedListLibrary\bin\Debug\net6.0\LinkedListLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="QueueInheritanceLibrary">
+      <HintPath>..\..\QueueInheritanceLibrary\QueueInheritanceLibrary\bin\Debug\net6.0\QueueInheritanceLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
